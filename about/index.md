@@ -21,6 +21,6 @@ Looking for a simple, responsive website or blog with a nice animation for your 
 * [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
 * Support for Disqus Comments
 
-<a markdown="0" href="{{ site.url }}/contact" class="btn">Let's do business</a>
+<a markdown="0" href="{{ site.url }}/contact" class="btn">Get a quote</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
