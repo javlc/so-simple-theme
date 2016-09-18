@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Contact
-excerpt: "Aptus Technica is a web development power house specializing in web animations."
+excerpt: "Contact Aptus Technica,  the web development power house specializing in web animations."
 modified: 2015-06-21T09:44:38.564948-04:00
 image:
   feature: kantutas-bolivianas.jpg
+  altText: Kantuta, Bolivia's national flower
   credit: Aptus Technica
   creditlink: http://aptustechnica.com/
 ---
