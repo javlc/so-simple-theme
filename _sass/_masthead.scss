@@ -52,6 +52,13 @@
 .landing {
   .site-logo {
     svg {
+      width: 237px;
+      @include media($medium) {
+        width: 415px;
+      }
+      @include media($large) {
+        width: 600px;
+      }
       g {
         @include animation-duration(2s);
           @include animation-delay(1s);
@@ -63,7 +70,7 @@
           transform-origin: 50% 50%;
           @for $i from 1 through 12 {
             &:nth-child(#{$i}) {
-              @include animation-delay(1.5 + 0.03s * $i)
+              @include animation-delay(1.5 + 0.05s * $i)
             }
           }
         }
