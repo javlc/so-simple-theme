@@ -49,6 +49,29 @@
   }
 }
 
+.landing {
+  .site-logo {
+    svg {
+      g {
+        @include animation-duration(2s);
+          @include animation-delay(1s);
+      }
+      g#logo {
+        path {
+          @include animation-name(fadeIn);
+          @include animation-duration(.5s);
+          transform-origin: 50% 50%;
+          @for $i from 1 through 12 {
+            &:nth-child(#{$i}) {
+              @include animation-delay(1.5 + 0.03s * $i)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 /*
    Site title/name
    ========================================================================== */

@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body id="page">
+<body id="page" {% if page.page_class %} class="{{ page.page_class }}" {% endif %}>
 
 {% include navigation.html %}
 
