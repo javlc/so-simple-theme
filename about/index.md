@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-excerpt: "Aptus Technica is a web development power house specializing in web animations."
+excerpt: "Aptus Technica is a web development power house that delivers discrete quality websites."
 modified: 2015-06-21T09:44:38.564948-04:00
 image:
   feature: kantutas-bolivianas.jpg
