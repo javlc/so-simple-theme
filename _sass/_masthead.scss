@@ -47,22 +47,25 @@
       @include rounded(); /* crops in a circle */
     }
   }
+  svg {
+    width: 265px;
+    height: auto;
+    @include media($medium) {
+      width: 415px;
+    }
+    @include media($large) {
+      width: 600px;
+    }
+    g {
+      @include animation-duration(2s);
+        @include animation-delay(1s);
+    }
+  }
 }
 
 .landing {
   .site-logo {
     svg {
-      width: 237px;
-      @include media($medium) {
-        width: 415px;
-      }
-      @include media($large) {
-        width: 600px;
-      }
-      g {
-        @include animation-duration(2s);
-          @include animation-delay(1s);
-      }
       g#logo {
         path {
           @include animation-name(fadeIn);
