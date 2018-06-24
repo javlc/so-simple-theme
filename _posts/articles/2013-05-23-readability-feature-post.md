@@ -6,6 +6,7 @@ categories: articles
 tags: [sample-post, readability]
 modified: 2013-06-30
 image:
+  path: ./images/so-simple-sample-image-3.jpg
   feature: so-simple-sample-image-3.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/

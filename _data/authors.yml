@@ -1,20 +1,23 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
+aptus_technica:
+  name: Aptus Technica
+  web: http://aptustechnica.com
+  email: aptustech@email.com
+  bio: "Your website-powering software house"
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
+  twitter:
   google:
-    plus: CorneliusFiddlebone
+    plus:
+
+javi_l:
+  name: Javi Lopez
+  web: http://aptustechnica.com
+  email: javlc.dev@gmail.com
+  bio: "Software Engineer on Web Development."
+  avatar: bio-photo-2.jpg
+  twitter: zurriago1846bo
+  google:
+    plus:
+
+

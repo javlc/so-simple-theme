@@ -1,13 +1,13 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "name": "aptustech",
+  "author": "Javier Lopez <javlc.dev@gmail.com>",
+  "homepage": "http://javlc.github.io/aptustech/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/so-simple-theme.git"
+    "url": "git://github.com/javlc/aptustech.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/so-simple-theme/issues"
+    "url": "https://github.com/javlc/aptustech/issues"
   },
   "engines": {
     "node": ">= 0.10.0"

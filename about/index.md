@@ -1,26 +1,26 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+title: About
+excerpt: "Aptus Technica is a web development power house that delivers discrete quality websites."
+modified: 2015-06-21T09:44:38.564948-04:00
 image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: kantutas-bolivianas.jpg
+  credit: Aptus Technica
+  creditlink: http://aptustechnica.com/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Looking for a simple, responsive website or blog with a nice animation for your company? Well, look no further. Here is **Aptus Technica**, the website development power house at your service.
 
-## So Simple Theme is all about:
+## Aptus Technica focuses on:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Responsive websites. Rendering well on mobile, tablet, and desktop.
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
+* Minimal adornments and subtle flow animations.
+* Optional large images for your posts and pages.
+* [Custom 404 pages]({{ site.url }}/404.html).
 * [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
 * Support for Disqus Comments
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+<a markdown="0" href="{{ site.url }}/contact" class="btn">Get a quote</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
