@@ -18,14 +18,14 @@
 {% capture logo_svg_content %}{% include LetterLogo-bg.html %}{% endcapture %}
 {% if logo_svg_content contains "Liquid error" %}
   {% if logoImg == nil %}
-    {% if page.image.feature %}<header class="masthead">
+    {% if page.image.feature %}<header class="masthead liquid-error logoimg-nil pg-img-feature">
       {% if site.logo != null %}
         <div class="wrap">
           <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
         </div>
       {% endif %}
     </header><!-- /.masthead -->
-    {% else %}<header class="masthead">
+    {% else %}<header class="masthead liquid-error logoimg-nil non-pg-img-feature">
       <div class="wrap">
           {% if site.logo != null %}
           <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
@@ -35,7 +35,7 @@
       </div>
     </header><!-- /.masthead -->{% endif %}
   {% else %}
-    <header class="masthead">
+    <header class="masthead liquid-error non-logoimg-nil">
       <div class="wrap">
           <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}">
           {% include logoImg %}
@@ -47,12 +47,13 @@
   {% endif %}
 
 {% else %}
-  <header class="masthead">
+  <header class="masthead non-liquid-error">
         <div class="wrap">
           <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}">
           {% include LetterLogo-bg.html %}
           </a>
         </div>
+  </header>
 {% endif %}
 
 

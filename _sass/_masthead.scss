@@ -69,11 +69,11 @@
       g#logo {
         path {
           @include animation-name(fadeIn);
-          @include animation-duration(.5s);
+          @include animation-duration(1s);
           transform-origin: 50% 50%;
           @for $i from 1 through 12 {
             &:nth-child(#{$i}) {
-              @include animation-delay(1.5 + 0.05s * $i)
+              @include animation-delay(2 + 0.02s * $i)
             }
           }
         }
